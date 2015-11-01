@@ -129,10 +129,10 @@ clickButtonWhenSpinnerIsOffStream
   .do(render) // redner UI
 ```
 
-The common part of the examples above is that all the code dealing with events happens in different point of time has been abstracted away by methods like `map`, `flatMap`, `flatMapLatest` and `distinctUntilChanged`. The logic of when to do with event comes in are funcations passed to these methods. This makes the difference of separating code dealing with event at a particular time(make a request to server when user enter a character in search box) and the code dealing with related events along time(which request to take to display the latest search results).
+The common part of the examples above is that all the code dealing with events happening in different point of time has been abstracted away by methods like `map`, `flatMap`, `flatMapLatest` and `distinctUntilChanged`. This makes the difference of separating code dealing with event at a particular time(make a request to server when user enter a character in search box) and the code dealing with related events along time(which request to take to display the latest search results).
 
 In javascript, there are many libs out there to provide funcations like `map`, `flatMap` ...
 Examples are Rxjs, Baconjs, Kefir etc...
-Now, start google them and look into these libs if you think this level of abstraction is what we should strive for.
+Now, start googling them and look into these libs if you think this level of abstraction is what we should strive for.
 
-You might wondering what the hell is `flatMap` when reading through the examples. I'll explain it in my next post, if you still like to read it then. So stay tuned for a "`flatMap` and beyond".
+You might wonder what the hell is `flatMap` when reading through the examples. I'll explain it in my next post, if you still like to read it then. So stay tuned for a "`flatMap` and beyond".
