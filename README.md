@@ -135,4 +135,4 @@ In javascript, there are many libs out there to provide funcations like `map`, `
 Examples are Rxjs, Baconjs, Kefir etc...
 Now, start googling them and look into these libs if you think this level of abstraction is what we should strive for.
 
-You might wonder what the hell is `flatMap` when reading through the examples. I'll explain it in my next post, if you still like to read it then. So stay tuned for a "`flatMap` and beyond".
+You might wonder what the hell is `flatMap` when reading through the examples. I'll explain it in my next post, if you still like to read it then. So stay tuned for a "`flatMap` and beyond" (https://github.com/shineli1984/flatMap-and-beyond/blob/master/README.md)
